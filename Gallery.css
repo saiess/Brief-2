@@ -1,0 +1,85 @@
+body{
+    background-image: url(images/about-bg.jpg);
+}
+
+.main-menu ul {
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+}
+
+.big {
+    font-size: 110px;
+    font-weight: 600;
+    opacity: 0.3;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.meduim {
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    padding-bottom: -20px;
+}
+
+.small {
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.tittle {
+    display: grid;
+    place-content: center;
+    padding-top: 100px;
+    
+}
+
+.container-fluid {
+
+}
+
+.all {
+    background-image: url(new/ben.png);
+    background-size: auto
+}
+
+.ben {
+    opacity: 0.3;
+}
+.ben img {
+    width: 465px;
+    position: absolute;
+    top: 295px;
+    left: 32%;
+}
+img.seen {
+    position: relative;
+    bottom: 0px;
+    left: 35px;
+}
+
+
+.sine {
+    width: 400px;
+}
+.button {
+    left: 42%;
+    width: 200px;
+    position: absolute;
+    bottom: -12.1%;
+}
+
+.arrow {
+    left: 85%;
+    width: 100px;
+    position: absolute;
+    bottom: -11.5%;
+}
+.line{
+    z-index: 2;
+    display: flex;
+}
+
+

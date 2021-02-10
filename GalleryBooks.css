@@ -1,0 +1,142 @@
+body{
+    background-image: url(images/about-bg.jpg);
+}
+
+.main-menu ul {
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+}
+
+.big {
+    font-size: 110px;
+    font-weight: 600;
+    opacity: 0.3;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.meduim {
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    padding-bottom: -20px;
+}
+
+.small {
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.tittle {
+    display: grid;
+    place-content: center;
+    padding-top: 100px;
+    
+}
+
+.container-fluid {
+
+}
+
+.all {
+    background-image: url(new/ben.png);
+    background-size: auto
+}
+
+
+.ben img {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 54px;
+}
+.seen {
+    opacity: 0.2;
+    z-index: -2;
+    position: absolute;
+    bottom: 0;
+    top: 14px;
+    width: 1130px;
+    left: 441px;
+}
+
+
+.sine {
+    width: 80%;
+}
+
+.books1 button{
+    width: 90px;
+    height: 33px;
+    border-radius: 21px;
+    border: 2px solid white;
+    background: radial-gradient(circle, rgba(188,33,49,1) 0%, rgba(143,38,96,1) 61%, rgba(130,39,109,1) 100%);
+    font-size: 11px;
+    color: white;
+    margin-top: 15%;
+}
+.books1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    perspective: 500px; 
+    align-items: center;
+    width: 17%;
+}
+
+.books1 img {
+    width: 134px;
+    height: 200px;
+    box-shadow: 5px 5px 5px black;
+    transform: rotateY(15deg);
+}
+
+.books1 img:hover{
+    transform: scale(1.6);
+    transition: 0.5s;
+}
+
+.bline{
+    display: flex;
+    justify-content: center;
+    left: 20%;
+    right: 20%;
+    top: 647px;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.books1 button{
+    width: 90px;
+    height: 33px;
+    border-radius: 21px;
+    border: 2px solid white;
+    background: radial-gradient(circle, rgba(188,33,49,1) 0%, rgba(143,38,96,1) 61%, rgba(130,39,109,1) 100%);
+    font-size: 11px;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.bline2{
+    display: flex;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 647px;
+    width: 100%;
+}
+
+
+
+.top {
+    position: relative;
+}
+
+.ben {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
