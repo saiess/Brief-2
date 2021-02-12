@@ -52,7 +52,7 @@ body{
     bottom: 0;
     top: 14px;
     width: 1130px;
-    left: 441px;
+    left: 390px;
 }
 
 
@@ -114,23 +114,114 @@ body{
     margin-bottom: 10%;
 }
 
-.bline2{
-    display: flex;
-    position: absolute;
-    left: 20%;
-    right: 20%;
-    top: 647px;
-    width: 100%;
-}
 
-
-
+/*
 .top {
     position: relative;
 }
-
-.ben {
+*/
+@media all and (max-width: 1600px) {
+.seen {
+    opacity: 0.2;
+    z-index: -2;
     position: absolute;
     bottom: 0;
-    left: 0;
+    top: 14px;
+    width: 1034px;
+    left: 216px;
 }
+    .bline {
+    display: flex;
+    justify-content: center;
+    left: 20%;
+    right: 20%;
+    top: 647px;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+}
+/*
+@media all and (max-width: 1600px) {
+.seen {
+    opacity: 0.2;
+    z-index: -2;
+    position: absolute;
+    bottom: 0;
+    top: 14px;
+    width: 986px;
+    left: 25px;
+}
+}
+*/
+
+
+@media all and (max-width: 900px) {
+    .seen {
+    opacity: 0.2;
+    z-index: -2;
+    position: absolute;
+    bottom: 0;
+    top: 94px;
+    width: 584px;
+    left: 181px;
+}
+    .bline {
+    display: flex;
+    justify-content: center;
+    left: 20%;
+    right: 20%;
+    top: 647px;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+    .books1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    perspective: 500px;
+    align-items: center;
+    width: 35%;
+}
+  
+}
+
+@media all and (max-width: 600px) {
+.seen {
+    opacity: 0.2;
+    z-index: -2;
+    position: absolute;
+    bottom: 0;
+    top: 200px;
+    width: 520px;
+    left: 7px;
+}
+}
+
+@media all and (max-width: 600px) {
+    .books1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    perspective: 500px;
+    align-items: center;
+    width: 50%;
+}
+    .bline {
+    display: flex;
+    justify-content: center;
+    left: 20%;
+    right: 20%;
+    top: 647px;
+    width: 94%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+}
+
+
+
