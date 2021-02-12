@@ -45,12 +45,6 @@ body{
     background-size: auto
 }
 
-
-.ben img {
-    width: 300px;
-    margin-top: 50px;
-    margin-left: 54px;
-}
 .seen {
     opacity: 0.2;
     z-index: -2;
